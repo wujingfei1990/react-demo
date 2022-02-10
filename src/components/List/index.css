@@ -1,0 +1,51 @@
+.clear{
+    clear: both;
+}
+.list-box{
+    background: #FFFFFF;
+    border: 1px solid #EFEFEF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 18px;
+}
+
+.list-box .title img{
+    float: left;
+}
+.list-box .title h3{
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    display: block;
+    margin-left: 56px;
+    padding-top: 8px;
+}
+.list-box .title span{
+    float: left;
+    margin-left: 8px;
+    background: #7733FF;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 8px;
+    line-height: 9px;
+    color: #FFFFFF;
+    padding: 3px 5px;
+}
+.list-box .description{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 0.6);
+    padding: 16px 0;
+}
+.list-box .share{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.list-box .share li{
+    float: left;
+    margin: 2px 4px;
+}
